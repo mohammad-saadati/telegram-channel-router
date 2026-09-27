@@ -1,0 +1,13 @@
+# Legacy Telethon channel router (main.py, categorizer.py, topics.py)
+telethon>=1.36.0
+python-dotenv>=1.0.0
+
+# Agent platform (app/)
+fastapi>=0.115
+uvicorn[standard]>=0.30
+httpx>=0.27
+pydantic>=2.9
+pydantic-settings>=2.5
+
+# Dev
+pytest>=8.0
